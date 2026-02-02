@@ -34,5 +34,13 @@ viz <- animint(
   duration = list(Species = 500) # Smooth 0.5s transition
 )
 
+#ERROR TO BE GENERATED
 # Render locally
-animint2dir(viz, out.dir = "gsoc_easy_test", open.browser = TRUE)
+#animint2dir(viz, out.dir = "gsoc_easy_test", open.browser = TRUE)
+
+#library(animint2)
+#library(ggplot2) # This masks the interactive features of animint2
+
+# This will fail
+#ggplot(iris, aes(Sepal.Length, Sepal.Width)) + 
+#  geom_point(clickSelects = "Species")
